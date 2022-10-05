@@ -1,0 +1,8 @@
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+  [plugins.inputs.settings]
+    preset = "desktop" # Optionally run Lighthouse using a desktop configuration
+
+  [plugins.inputs.thresholds]
+    performance = 0.9
